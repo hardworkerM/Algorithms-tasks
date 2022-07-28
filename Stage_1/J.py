@@ -1,3 +1,7 @@
+"""Это решение, которое я отправил на экзамене. Я знаю что можно проще и легче, но решил оставить как есть."""
+
+
+# Перевод даты в число дней, где за току отсчёта берётся start_year
 def date_in_numb(date, start_year):
     numb = 0
     day = int(date[:2])
@@ -8,6 +12,8 @@ def date_in_numb(date, start_year):
     numb = day + month + years
     return numb
 
+
+# Функция подсчёта дней в месяце (можно было сделать через библиотеку calendar
 
 def made_m_in_d(m, y):
     if m < 1:
@@ -31,12 +37,14 @@ def made_m_in_d(m, y):
     return days
 
 
+# Подсчёт дней в году
 def made_y_in_d(y):
     if y % 4 == 0:
         return 366
     return 365
 
 
+# подсчёт промежутков между датами
 def distance(timeline):
     dist = []
     for i in range(len(timeline) - 1):
@@ -59,11 +67,13 @@ def main(dates, l, k):
     return dist
 
 
-# n, l, r = [int(i) for i in input().split()]
-# dates = []
-# for i in range(n):
-#     dates.append(input())
-# print(main(dates, l, r))
+# Для живого ввода дат
+def life_input():
+    n, l, r = [int(i) for i in input().split()]
+    dates = []
+    for i in range(n):
+        dates.append(input())
+    print(main(dates, l, r))
 
 
 def test1():
@@ -111,7 +121,6 @@ def test2():
     print(res, res == answer)
 
 
-
 def test_my():
     n = 3
     l = 2020
@@ -133,6 +142,7 @@ def test_my():
         '01-01-2020',
 
     ]
+
 
 test1()
 test2()
