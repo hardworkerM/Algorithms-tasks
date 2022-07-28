@@ -18,3 +18,15 @@
 Определить наибольшее количество дней подряд - значит найти максимальное расстояние между точками. 
 <a href='https://github.com/hardworkerM/Algoritmic_tasks/blob/master/Stage_1/J.py'> Реализация</a> 
 </p>
+<h3>L Минимальная подстрока</h3>
+<p>
+<a href='https://github.com/hardworkerM/Algoritmic_tasks/blob/master/Stage_1/L_1.png'> Условие</a> задачи (скриншот)<br>
+Открытые <a href='https://github.com/hardworkerM/Algoritmic_tasks/blob/master/Stage_1/L_2.png'> Тесты</a>, по которым проверялось (скрин)<br>
+Задача с применением кодирования длин серий. Предстояло "распутать" строку обратно
+</p>
+
+<b> Логика </b>
+<p>
+Пока не вспомнил как решал
+<a href='https://github.com/hardworkerM/Algoritmic_tasks/blob/master/Stage_1/L.py'> Реализация</a> 
+</p>
